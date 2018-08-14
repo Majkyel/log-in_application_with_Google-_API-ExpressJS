@@ -1,0 +1,11 @@
+doctype html
+html(lang='en')
+  head
+    title="Main page"
+    style
+        include ../css/main.css
+  body
+    div.container_form
+        form(action='/auth/google' method='GET')
+          button.button(type='submit' value='SEND') <b>LOG IN</b>
+        
