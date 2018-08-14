@@ -1,0 +1,40 @@
+*{box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px black;
+}
+
+.container p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container .back {
+    background-color: red;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.container .main {
+    background-color: limegreen;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    color: black;
+}

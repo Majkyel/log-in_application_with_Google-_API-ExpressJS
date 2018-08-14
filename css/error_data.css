@@ -1,0 +1,21 @@
+body {
+    background-color: darkgray;
+    padding: 10px 0;
+}
+
+.text {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+}
+
+.back {
+    text-decoration: none;
+    background-color: limegreen;
+    padding: 5px 10px;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
